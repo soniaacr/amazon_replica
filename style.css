@@ -1,0 +1,79 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.site {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: 0.4px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sign-in {
+    position: static;
+    margin: 0 auto;
+    border: 1.0px solid #c6c4c4;
+    border-radius: 2px;
+    width: 350px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+#sign-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    opacity: .7;
+}
+
+#continue {
+    width: 300px;
+    height: 30px;
+    font-size: 13px;
+    background: linear-gradient(#f5dda3, #edc869);
+    border: 0.5px solid #9c9b9b;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+.new-customer{
+    letter-spacing: normal;
+    text-align: center;
+    color: rgb(122, 119, 119);
+    border-top: 0.8px solid rgba(0,0,0,0.1);
+    margin-top: 15px;
+    justify-content: center;
+    display: flex;
+}
+
+#bottom {
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+#create {
+    border:thin solid gray;
+    color:rgb(0, 0, 0);
+    width: 275px;
+    border-radius: 2px; 
+    background: linear-gradient(#edebe8, #deddda);
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#button-center {
+    text-align: center;
+    display: flex;
+    position: static;
+    justify-content: center;
+    text-overflow: "";
+}
